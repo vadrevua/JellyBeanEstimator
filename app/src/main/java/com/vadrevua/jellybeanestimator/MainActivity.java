@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         answerText = (TextView) findViewById(R.id.answerLabel); //answer label so we can change values
         Button solveBeansButton = (Button) findViewById(R.id.resultButton);
 
-        
+
         solveBeansButton.setOnClickListener(new View.OnClickListener() {
            @Override
             public void onClick(View v) {
