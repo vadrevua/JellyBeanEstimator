@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vadrevua.jellybeanestimator.MainActivity">
+
+    <TextView
+        android:text="Enter the Diameter of the Jelly Bean (cm)"
+        android:layout_width="242dp"
+        android:layout_height="46dp"
+        android:id="@+id/enterDiameter"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_x="10dp"
+        android:layout_y="22dp" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="27dp"
+        android:text="Aditya Vadrevu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/nameLabel"
+        android:layout_row="3"
+        android:layout_column="6"
+        android:layout_x="7dp"
+        android:layout_y="462dp" />
+
+    <EditText
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/diameterInput"
+        android:text="(cm)"
+        android:layout_marginTop="149dp"
+        android:layout_below="@+id/enterDiameter"
+        android:layout_centerHorizontal="true"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_x="265dp"
+        android:layout_y="19dp" />
+</AbsoluteLayout>
